@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding: 160px;
+    
+}
+
+
+input{
+    height: 70px;
+    width:270px;
+    /* direction:rtl; */
+    text-align: right;
+    background-color: black;
+    color:white;
+    font-size: 35px;
+    border:none;
+}
+.first {
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    height: 50px;
+}
+.second,
+.suivant1,
+.suivant2{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 50px;
+}
+.last{
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    height: 50px;
+}
+#signe0,
+#signe1,
+#signe2,
+#signe3,
+#signe4{
+    background-color: rgb(197, 149, 60);
+}
+button,{
+    border:1px solid black;
+    background-color:rgb(204, 203, 193);
+
+}
+#equals{
+    background-color: rgb(197, 149, 60);
+}
